@@ -384,8 +384,8 @@
     },
     {
       "path": "docs/runtime.cdx.json",
-      "sha256": "2ac226a11c3062523ef664281a090bbc9d75f1bc8a069dd71de33c1ce73c2c99",
-      "size": 93643
+      "sha256": "ba9928d40ec9148c5eb48021914cb867317fddf348f01b36091d6a28bd4e48a0",
+      "size": 93913
     },
     {
       "path": "docs/TROUBLESHOOTING.md",
@@ -494,8 +494,8 @@
     },
     {
       "path": "gradle/verification-metadata.xml",
-      "sha256": "08d70709f31d56806e0931449e3c8f847849cf671767ed5c02fdfb6b1a0c5afc",
-      "size": 246925
+      "sha256": "2d5c6703a925e243f48adb893aecfc80de62625c00c423a63dea3b679abbff28",
+      "size": 247309
     },
     {
       "path": "gradle/wrapper/gradle-wrapper.jar",
@@ -534,8 +534,8 @@
     },
     {
       "path": "RELEASE_SECURITY.md",
-      "sha256": "bc36136d7938a1257d975379d7a095bc4ff970f80ae8b9a3c7e74b925fd60bf5",
-      "size": 1558
+      "sha256": "a10537e25c7b6fdcd901b197426472b8c922157da8ce0d1fee5bb9606f316d32",
+      "size": 1797
     },
     {
       "path": "scripts/with-symbols.sh",

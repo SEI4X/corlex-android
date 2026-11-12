@@ -31,15 +31,19 @@
       },
       {
         "name": "corlex:sdk-source-tree:sha1",
-        "value": "06c0cbd94051933b86d960e2b86f67215b2df6c8"
+        "value": "64778d75cabc0b13a7cbd85b8befc75db42381d3"
       },
       {
         "name": "corlex:gradle-verification-metadata:sha256",
-        "value": "08d70709f31d56806e0931449e3c8f847849cf671767ed5c02fdfb6b1a0c5afc"
+        "value": "2d5c6703a925e243f48adb893aecfc80de62625c00c423a63dea3b679abbff28"
       },
       {
         "name": "corlex:validation",
         "value": "Final standalone293Gradletasks;180coretests per debug/release variant plus Compose2/variant; separate composite-build consumerAPK; strict offline runtime union regenerated and all110POM SHA-256 values rechecked."
+      },
+      {
+        "name": "corlex:toolchain",
+        "value": "Standalone/consumer proof: macOS JDK21 targeting JVM17; hosted Linux JDK17 remains an independent required gate. Exact metadata-only hosted BOM checksum added after initial hosted strict rejection."
       }
     ]
   },

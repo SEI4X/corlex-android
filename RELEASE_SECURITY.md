@@ -22,3 +22,5 @@ offline strict build passed, and replacing the expected AGP JAR hash caused actu
 Gradle strict verification to reject the dependency. The original hash was restored.
 
 The standalone Compose build also resolves Kotlin stdlib-common1.9.24 module metadata during variant selection. Its exact SHA-256 was independently checked against Maven Central over TLS and pinned explicitly; the runtime lock graph is unchanged.
+
+Hosted Linux included-plugin configuration also resolves kotlinx-coroutines-bom1.8.0 metadata. Its pinned POM hash matches both an independent Maven Central TLS download and the previously resolved local cache; verification stays strict.
