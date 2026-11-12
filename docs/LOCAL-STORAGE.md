@@ -1,0 +1,5 @@
+# Android SDK storage
+
+Protected state uses the SDK-only noBackupFilesDir/corlex directory. Owner identity binds the SDK write key and complete canonical ingest/config URLs; consent generations fence stale files, callbacks and network sends. Another key/proxy does not inherit offline events, identity, cached flags or crash reports. Explicit opt-out wipes SDK capture scopes while preserving refusal; fresh opt-in creates a new scope. A dedicated backup-excluded SDK-write-key record enables WorkManager delivery, never privileged credentials. Corrupt/unreadable privacy state fails closed. If protected persistence is unavailable, an explicit opt-in starts fresh memory-only state. Pending events remain bounded in memory; no pending crash report is persisted. Queue records and crash files are size/count bounded before parsing.
+
+OS sandbox/data-at-rest protection is used; no independent SDK encryption or retroactive erasure of existing cloud backups is claimed. No host app data or backup policy is modified.

@@ -1,0 +1,3238 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-12T20:18:21Z",
+    "component": {
+      "type": "library",
+      "name": "Corlex Android SDK release runtime inventory",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "corlex:scope",
+        "value": ":corlex and :corlex-compose releaseRuntimeClasspath; resolved union, not direct dependency edges"
+      },
+      {
+        "name": "corlex:license-evidence",
+        "value": "Resolved upstream POM declarations; listenablefuture1.0 inherits guava-parent26.0-android license. Runtime library source is not vendored; the build wrapper has a separate Apache-2.0 license/NOTICE."
+      },
+      {
+        "name": "corlex:vulnerability-query",
+        "value": "OSV v1/querybatch repeated for the frozen110 Maven coordinates2026-11-12T20:18Z; no known advisory matches returned; not a guarantee of absence."
+      },
+      {
+        "name": "corlex:sdk-source-tree:sha1",
+        "value": "06c0cbd94051933b86d960e2b86f67215b2df6c8"
+      },
+      {
+        "name": "corlex:gradle-verification-metadata:sha256",
+        "value": "08d70709f31d56806e0931449e3c8f847849cf671767ed5c02fdfb6b1a0c5afc"
+      },
+      {
+        "name": "corlex:validation",
+        "value": "Final standalone293Gradletasks;180coretests per debug/release variant plus Compose2/variant; separate composite-build consumerAPK; strict offline runtime union regenerated and all110POM SHA-256 values rechecked."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.activity/activity-compose@1.8.0",
+      "group": "androidx.activity",
+      "name": "activity-compose",
+      "version": "1.8.0",
+      "purl": "pkg:maven/androidx.activity/activity-compose@1.8.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "227770d7e01f06f4c0b9eccdfd3d3913b75ec41e7080912966fd22bb6d1f7205"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "227770d7e01f06f4c0b9eccdfd3d3913b75ec41e7080912966fd22bb6d1f7205"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.activity/activity-ktx@1.8.0",
+      "group": "androidx.activity",
+      "name": "activity-ktx",
+      "version": "1.8.0",
+      "purl": "pkg:maven/androidx.activity/activity-ktx@1.8.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "c9439d18ecb1badf5900325979b2a6587a40bed4f074dab69cebd00cfae391b7"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "c9439d18ecb1badf5900325979b2a6587a40bed4f074dab69cebd00cfae391b7"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.activity/activity@1.8.0",
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.8.0",
+      "purl": "pkg:maven/androidx.activity/activity@1.8.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "65131285f53cb042e8ffd189e705dafc9b8ae6d62435e8778ac9ab3b8e3f756f"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "65131285f53cb042e8ffd189e705dafc9b8ae6d62435e8778ac9ab3b8e3f756f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation-experimental@1.4.1",
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.4.1",
+      "purl": "pkg:maven/androidx.annotation/annotation-experimental@1.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "fe57b228417f4d7c677903dc61fb4a7cf993d603499de26d8d8113e477cc4f1b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "fe57b228417f4d7c677903dc61fb4a7cf993d603499de26d8d8113e477cc4f1b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation-jvm@1.6.0",
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.6.0",
+      "purl": "pkg:maven/androidx.annotation/annotation-jvm@1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "2be665ba7cdb046b41b409c79a3de0c6d9e1255242c087f6b94b2c7493be08f4"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "2be665ba7cdb046b41b409c79a3de0c6d9e1255242c087f6b94b2c7493be08f4"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation-jvm@1.9.1",
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.9.1",
+      "purl": "pkg:maven/androidx.annotation/annotation-jvm@1.9.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "89b99c218d60019316b50aab79816707bc21696c896a030e1b1ae038961bcb8e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "89b99c218d60019316b50aab79816707bc21696c896a030e1b1ae038961bcb8e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation@1.6.0",
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.6.0",
+      "purl": "pkg:maven/androidx.annotation/annotation@1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "dd882b4c1945ad13121ecdf651eba664a9b226b55db84fa755392de5e10d1e5b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "dd882b4c1945ad13121ecdf651eba664a9b226b55db84fa755392de5e10d1e5b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation@1.9.1",
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.9.1",
+      "purl": "pkg:maven/androidx.annotation/annotation@1.9.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "c733881c2e17d5f7c8661cc02a9159cb160b7b2094a27d593916c87d3e250636"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "c733881c2e17d5f7c8661cc02a9159cb160b7b2094a27d593916c87d3e250636"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.arch.core/core-common@2.2.0",
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.2.0",
+      "purl": "pkg:maven/androidx.arch.core/core-common@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.arch.core/core-runtime@2.2.0",
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.2.0",
+      "purl": "pkg:maven/androidx.arch.core/core-runtime@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.autofill/autofill@1.0.0",
+      "group": "androidx.autofill",
+      "name": "autofill",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.autofill/autofill@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "3677abead5d4e06cf76cbacb954151e051779c2274494451fb424e375aa9e450"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "3677abead5d4e06cf76cbacb954151e051779c2274494451fb424e375aa9e450"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.collection/collection-jvm@1.5.0",
+      "group": "androidx.collection",
+      "name": "collection-jvm",
+      "version": "1.5.0",
+      "purl": "pkg:maven/androidx.collection/collection-jvm@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "11c415864d3402f61d426e67210158dce1b04680412526a994f1823ecd3cb388"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "11c415864d3402f61d426e67210158dce1b04680412526a994f1823ecd3cb388"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.collection/collection-ktx@1.5.0",
+      "group": "androidx.collection",
+      "name": "collection-ktx",
+      "version": "1.5.0",
+      "purl": "pkg:maven/androidx.collection/collection-ktx@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "983f8d0630d072d5bfcd166a498ac7213f3a44a98c09051004ce96429d867cea"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "983f8d0630d072d5bfcd166a498ac7213f3a44a98c09051004ce96429d867cea"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.collection/collection@1.0.0",
+      "group": "androidx.collection",
+      "name": "collection",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.collection/collection@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "a7913a5275ad68e555d2612ebe8c14c367b153e14ca48a1872a64899020e54ef"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "a7913a5275ad68e555d2612ebe8c14c367b153e14ca48a1872a64899020e54ef"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.collection/collection@1.5.0",
+      "group": "androidx.collection",
+      "name": "collection",
+      "version": "1.5.0",
+      "purl": "pkg:maven/androidx.collection/collection@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "2d65c8d0b36d4b4faadc44aff9bade23d871d7159eedf2b3f02d802b34b77a57"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "2d65c8d0b36d4b4faadc44aff9bade23d871d7159eedf2b3f02d802b34b77a57"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.animation/animation-android@1.8.2",
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.animation/animation-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "6f4f12c0ddaf8dd12ab853801b1405ab7acc033a5df49985cdf0bf071038f3b0"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "6f4f12c0ddaf8dd12ab853801b1405ab7acc033a5df49985cdf0bf071038f3b0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.animation/animation-core-android@1.8.2",
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.animation/animation-core-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "25e51dac40400757657b1fc3183c1917cd3f733955705b3bcf5f7613a9a317a1"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "25e51dac40400757657b1fc3183c1917cd3f733955705b3bcf5f7613a9a317a1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.animation/animation-core@1.8.2",
+      "group": "androidx.compose.animation",
+      "name": "animation-core",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.animation/animation-core@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f6bcb500e2a3faa63be371ecf5d9d1d8c269d4e8970ca37da70ad8be2221a865"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f6bcb500e2a3faa63be371ecf5d9d1d8c269d4e8970ca37da70ad8be2221a865"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.animation/animation@1.8.2",
+      "group": "androidx.compose.animation",
+      "name": "animation",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.animation/animation@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "8d1b23fa8c22a7f430e5938f3af4fa69de53ccf33d86419b313c3de51cce3c3a"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "8d1b23fa8c22a7f430e5938f3af4fa69de53ccf33d86419b313c3de51cce3c3a"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.foundation/foundation-layout-android@1.8.2",
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.foundation/foundation-layout-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "9dfa3c69fa0d998701edf961b41b53d0c0be6fb82ed573fd43bf67ce1abcc99e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "9dfa3c69fa0d998701edf961b41b53d0c0be6fb82ed573fd43bf67ce1abcc99e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.foundation/foundation-layout@1.8.2",
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.foundation/foundation-layout@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "50c30ed4cadcda08f1c55a69d420a34ee8a09a6a020e6c30dc92c16572ca2c24"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "50c30ed4cadcda08f1c55a69d420a34ee8a09a6a020e6c30dc92c16572ca2c24"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.runtime/runtime-android@1.8.2",
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.runtime/runtime-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4bcffc0b6428419ee87741e454464e6e5d7daa632736aedf4ec0449f1b8bd98c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4bcffc0b6428419ee87741e454464e6e5d7daa632736aedf4ec0449f1b8bd98c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.runtime/runtime-saveable-android@1.8.2",
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.runtime/runtime-saveable-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "e4154668f8f6694dd5d86b78cbbe56f06a9fb1675664f1ca54f022017cc04a6e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "e4154668f8f6694dd5d86b78cbbe56f06a9fb1675664f1ca54f022017cc04a6e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.runtime/runtime-saveable@1.8.2",
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.runtime/runtime-saveable@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "ce421128dd59ff772ade1bf94fad4374a6dcc5eeb8033e3140f6b06ef6d9942c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "ce421128dd59ff772ade1bf94fad4374a6dcc5eeb8033e3140f6b06ef6d9942c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.runtime/runtime@1.8.2",
+      "group": "androidx.compose.runtime",
+      "name": "runtime",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.runtime/runtime@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "557fc79a6c8bb09235323167d130923456035dd4e014e8236e4fe2cb9fb8c67f"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "557fc79a6c8bb09235323167d130923456035dd4e014e8236e4fe2cb9fb8c67f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "9babe2b845957598991aa85eb1687c3739c9cc553e852c49a71f82a29f121345"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "9babe2b845957598991aa85eb1687c3739c9cc553e852c49a71f82a29f121345"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-geometry-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-geometry-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "730fc01012c714f209556795376683bb63ff141ac656c8ed6e780b7953b12786"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "730fc01012c714f209556795376683bb63ff141ac656c8ed6e780b7953b12786"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-geometry@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-geometry@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4f65890515c4b08ebe249051be41e5c91193376449cf50691d3a46eb4aaa52e9"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4f65890515c4b08ebe249051be41e5c91193376449cf50691d3a46eb4aaa52e9"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-graphics-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-graphics-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "a4142114864c70cd062b06bfe791aa70d3260cb163e368c470225e4fcff5878b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "a4142114864c70cd062b06bfe791aa70d3260cb163e368c470225e4fcff5878b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-graphics@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-graphics@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "48513ffa90bddbbc8aecc0db701701e57c009bd3ba8f455d00cd1553b94e3644"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "48513ffa90bddbbc8aecc0db701701e57c009bd3ba8f455d00cd1553b94e3644"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-text-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-text-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f01a8678229902efd5172b8674b57c900c62a4bd37955c4e3bbdced6ff4cf586"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f01a8678229902efd5172b8674b57c900c62a4bd37955c4e3bbdced6ff4cf586"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-text@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-text",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-text@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "8c49f25824a64b377ce42c119526f75aac79cadaa67d655de3339a957c9b30b7"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "8c49f25824a64b377ce42c119526f75aac79cadaa67d655de3339a957c9b30b7"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-unit-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-unit-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "5a4ff03c514087fd9d485a4ac1941e3011ea7a20c03dc0f3e2805140bd8e5ef8"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "5a4ff03c514087fd9d485a4ac1941e3011ea7a20c03dc0f3e2805140bd8e5ef8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-unit@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-unit",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-unit@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "99421bdf735e800f782a9107a1103cf96a03af3cf74318f6fee624de8a21cd68"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "99421bdf735e800f782a9107a1103cf96a03af3cf74318f6fee624de8a21cd68"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-util-android@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-util-android@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "9193d0ebfcafcd8f0e6bd9fecc831122a3b987255d1475f5d3ccfb99610f2926"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "9193d0ebfcafcd8f0e6bd9fecc831122a3b987255d1475f5d3ccfb99610f2926"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui-util@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui-util",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui-util@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "dc57bfe6a2e04b1c20713b9060774bce98e02bd1d41649e4f77118e0e53a68a2"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "dc57bfe6a2e04b1c20713b9060774bce98e02bd1d41649e4f77118e0e53a68a2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose.ui/ui@1.8.2",
+      "group": "androidx.compose.ui",
+      "name": "ui",
+      "version": "1.8.2",
+      "purl": "pkg:maven/androidx.compose.ui/ui@1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "84634536c74f57ddafbd2ccdacb0f7742ef9de705c845a056d72b9179cdd4ee0"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "84634536c74f57ddafbd2ccdacb0f7742ef9de705c845a056d72b9179cdd4ee0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.compose/compose-bom@2025.05.01",
+      "group": "androidx.compose",
+      "name": "compose-bom",
+      "version": "2025.05.01",
+      "purl": "pkg:maven/androidx.compose/compose-bom@2025.05.01",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "00c14ac373ca3f73dcaa21524ce5f6564656a7485cf096e799449ab968ca57b8"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "00c14ac373ca3f73dcaa21524ce5f6564656a7485cf096e799449ab968ca57b8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.concurrent/concurrent-futures-ktx@1.1.0",
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures-ktx",
+      "version": "1.1.0",
+      "purl": "pkg:maven/androidx.concurrent/concurrent-futures-ktx@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "c903f8f51e3f4ea5e7e1f0a6fe3be873c357221227d103d08d7fd042f4b7570c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "c903f8f51e3f4ea5e7e1f0a6fe3be873c357221227d103d08d7fd042f4b7570c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0",
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "purl": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core-ktx@1.13.1",
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.13.1",
+      "purl": "pkg:maven/androidx.core/core-ktx@1.13.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core-viewtree@1.0.0",
+      "group": "androidx.core",
+      "name": "core-viewtree",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.core/core-viewtree@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d4f2ed1176fa8c5612b80f74c952a8799142a9ed36022a1a238fde5b140580d9"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d4f2ed1176fa8c5612b80f74c952a8799142a9ed36022a1a238fde5b140580d9"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core@1.12.0",
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.12.0",
+      "purl": "pkg:maven/androidx.core/core@1.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "475f6e2210eb079471607693e65f65b333c080030d5aa22a1972c513015aa255"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "475f6e2210eb079471607693e65f65b333c080030d5aa22a1972c513015aa255"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core@1.13.1",
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.1",
+      "purl": "pkg:maven/androidx.core/core@1.13.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.customview/customview-poolingcontainer@1.0.0",
+      "group": "androidx.customview",
+      "name": "customview-poolingcontainer",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.customview/customview-poolingcontainer@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "9fa62196c4c4e79b6a58dbb38a8c022bef8db21989d7dae2da0f6f5b66289a9c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "9fa62196c4c4e79b6a58dbb38a8c022bef8db21989d7dae2da0f6f5b66289a9c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.emoji2/emoji2@1.4.0",
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.4.0",
+      "purl": "pkg:maven/androidx.emoji2/emoji2@1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "1f67221484f7d1260eb6e2b490cd4e7046bf5cb536276d79f972ad3f198b474d"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "1f67221484f7d1260eb6e2b490cd4e7046bf5cb536276d79f972ad3f198b474d"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.graphics/graphics-path@1.0.1",
+      "group": "androidx.graphics",
+      "name": "graphics-path",
+      "version": "1.0.1",
+      "purl": "pkg:maven/androidx.graphics/graphics-path@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "866fb357c7146f5f7678ad44e4bc6c2823d568defce1ed2805bb6c899606b228"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "866fb357c7146f5f7678ad44e4bc6c2823d568defce1ed2805bb6c899606b228"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.interpolator/interpolator@1.0.0",
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.interpolator/interpolator@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-common-jvm@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-jvm",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common-jvm@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "54beadc62da90fbe038dc30ead0605522b3697b61d91f76e4969b60202483cc1"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "54beadc62da90fbe038dc30ead0605522b3697b61d91f76e4969b60202483cc1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.6.2",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.6.2",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common@2.6.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "57304cdac4da289a6ecdd0738e16b1d8858f1ef8e9fabe2d65a963719fd81dba"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "57304cdac4da289a6ecdd0738e16b1d8858f1ef8e9fabe2d65a963719fd81dba"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "68635facb41349b06b869ce8fb2c630edd25a57c97e5ff098bbad15ffcf31ff6"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "68635facb41349b06b869ce8fb2c630edd25a57c97e5ff098bbad15ffcf31ff6"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core-ktx@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core-ktx",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core-ktx@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "2377ddd0f460ea0fe4d16657e8f28cb6004b34e5713004f6d0b8d6b45b36a259"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "2377ddd0f460ea0fe4d16657e8f28cb6004b34e5713004f6d0b8d6b45b36a259"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.6.2",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.6.2",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.6.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "1faf8ebf53f28b2f0ae2c2095371ae67d0ca16ac328fce7f163609a43214b5a4"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "1faf8ebf53f28b2f0ae2c2095371ae67d0ca16ac328fce7f163609a43214b5a4"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "20363ac987c763e48870234a0ed8fc7fd9a0597583e7c8b3b8416def7354a271"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "20363ac987c763e48870234a0ed8fc7fd9a0597583e7c8b3b8416def7354a271"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.6.2",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata",
+      "version": "2.6.2",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.6.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d7c9e019cf68779387481877878f6c499d1786b85f2c0480e9264dd5097c51c0"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d7c9e019cf68779387481877878f6c499d1786b85f2c0480e9264dd5097c51c0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "87056d33c5acdddde61b7b44599872b5b7271be27e140a393ca688d456aef908"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "87056d33c5acdddde61b7b44599872b5b7271be27e140a393ca688d456aef908"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-process@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-process@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "ad86f00646155856b83456ed6f04c3165c4f9205088d555b93c7e7deaf560916"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "ad86f00646155856b83456ed6f04c3165c4f9205088d555b93c7e7deaf560916"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "5db05802cf540514dcc2ea581a4f67f996546cba568d9bb14bf273b29cd0233c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "5db05802cf540514dcc2ea581a4f67f996546cba568d9bb14bf273b29cd0233c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime-compose-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-compose-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "e3dbf11d16a7872fa98add5916522f4b179eb3d5f4fc1e04748d38f5910df060"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "e3dbf11d16a7872fa98add5916522f4b179eb3d5f4fc1e04748d38f5910df060"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime-compose@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-compose@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "5d48bc6e62c8075b3b30bc9f12fc0c376a69a95388f47a442117bc6b18392099"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "5d48bc6e62c8075b3b30bc9f12fc0c376a69a95388f47a442117bc6b18392099"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime-ktx-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-ktx-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "8dd817a9b6767b2b9e93698bda6b6c9dd72306a530c028f807bcdf36b31cb119"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "8dd817a9b6767b2b9e93698bda6b6c9dd72306a530c028f807bcdf36b31cb119"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime-ktx@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-ktx@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "b4545401dbd055fd04903d4698623d5bb406dde2e32800d80a61e5824f477da9"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "b4545401dbd055fd04903d4698623d5bb406dde2e32800d80a61e5824f477da9"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.6.2",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.6.2",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.6.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "8175255546e2a5f510865f84ace680660954730240b1905d9175b4345beda977"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "8175255546e2a5f510865f84ace680660954730240b1905d9175b4345beda977"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d0142198185e44992924aa0e8c67b0795b127139203abc8715957c56756957f8"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d0142198185e44992924aa0e8c67b0795b127139203abc8715957c56756957f8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-service@2.6.2",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-service",
+      "version": "2.6.2",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-service@2.6.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "e08ddd03d513516efe360953219074e2ede09b0c9c2490cdafe141292fb37eb8"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "e08ddd03d513516efe360953219074e2ede09b0c9c2490cdafe141292fb37eb8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-service@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-service",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-service@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "6838189383bee6e2e448b54c4aa72fe3929a81eff2ccc569dfdd2beca4898f5e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "6838189383bee6e2e448b54c4aa72fe3929a81eff2ccc569dfdd2beca4898f5e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "75d3a8e143aaaf489b07434c4e30030942b1a82a699b229bf887377b603c3f91"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "75d3a8e143aaaf489b07434c4e30030942b1a82a699b229bf887377b603c3f91"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-compose-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-compose-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f4b04cb11e1a921c09ea6739d4a80ce1529898434770772844c67d999d8b5dfc"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f4b04cb11e1a921c09ea6739d4a80ce1529898434770772844c67d999d8b5dfc"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-compose@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-compose@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d3375ede03d92b2d4f513e1eb1a6060545c78f068e75387f781dd6f43baa015b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d3375ede03d92b2d4f513e1eb1a6060545c78f068e75387f781dd6f43baa015b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-ktx@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-ktx",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-ktx@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "99c4a88d509f4c43a681d14d20948182641691b74f6dd6c4d6996caabbd4c677"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "99c4a88d509f4c43a681d14d20948182641691b74f6dd6c4d6996caabbd4c677"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate-android@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "02f383e140adfc2bd5c94e15ec994d9069a4d4538a3700f5cf31b2774f156768"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "02f383e140adfc2bd5c94e15ec994d9069a4d4538a3700f5cf31b2774f156768"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "76ca959ea12a33a3c608fd1f2448a48909d38e930d8f38c580374ea60f1a38cc"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "76ca959ea12a33a3c608fd1f2448a48909d38e930d8f38c580374ea60f1a38cc"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.9.0",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f49d4b68b6854111e4d193c90c9a4b75840ad2f373b2ed1842cb56ac50b6a846"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f49d4b68b6854111e4d193c90c9a4b75840ad2f373b2ed1842cb56ac50b6a846"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-common-android@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-common-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-common-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "cf52b4c2fb78fa2fb344e74661592ae93a3639deedb85840e2a1a15771dccfaf"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "cf52b4c2fb78fa2fb344e74661592ae93a3639deedb85840e2a1a15771dccfaf"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-common@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-common",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-common@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "7e9a4cd2d40646c9930f66858416c2f557d43ba066f82ba68eb7d09fea02040d"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "7e9a4cd2d40646c9930f66858416c2f557d43ba066f82ba68eb7d09fea02040d"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-compose-android@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-compose-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-compose-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "1473fc1102907b4da1d3417b0967a1265aefd64f64c3087ddbc45663d659f203"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "1473fc1102907b4da1d3417b0967a1265aefd64f64c3087ddbc45663d659f203"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-compose@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-compose",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-compose@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d738b73ae81766715ec25b069a28bdd9c64baf58ab3bb5eb6e34e297fd818700"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d738b73ae81766715ec25b069a28bdd9c64baf58ab3bb5eb6e34e297fd818700"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-runtime-android@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-runtime-android",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-runtime-android@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "058b0a1e33c2fb3bd1d3a956fe58eba3fb25e5b166a725c41e75a12e579adb58"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "058b0a1e33c2fb3bd1d3a956fe58eba3fb25e5b166a725c41e75a12e579adb58"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.navigation/navigation-runtime@2.9.0",
+      "group": "androidx.navigation",
+      "name": "navigation-runtime",
+      "version": "2.9.0",
+      "purl": "pkg:maven/androidx.navigation/navigation-runtime@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "10b98b7cd69384588cdb48b35e5447cfc979b35e23a91cfe6c24bfb4f1ca702e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "10b98b7cd69384588cdb48b35e5447cfc979b35e23a91cfe6c24bfb4f1ca702e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.profileinstaller/profileinstaller@1.3.0",
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.profileinstaller/profileinstaller@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "12cbc01c8a5ae4b412caf3c5a0662ccd28002dedcff1dbe6c2ab3665be9f758c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "12cbc01c8a5ae4b412caf3c5a0662ccd28002dedcff1dbe6c2ab3665be9f758c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.profileinstaller/profileinstaller@1.4.0",
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.4.0",
+      "purl": "pkg:maven/androidx.profileinstaller/profileinstaller@1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "d5fe39981a3b4b7c39585130da0bfc93835054c834a438d3e63e065e5f78be55"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "d5fe39981a3b4b7c39585130da0bfc93835054c834a438d3e63e065e5f78be55"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.room/room-common@2.6.1",
+      "group": "androidx.room",
+      "name": "room-common",
+      "version": "2.6.1",
+      "purl": "pkg:maven/androidx.room/room-common@2.6.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "85abfe64d7dd44d1c4510a56c7e9cc2f7b0363d32b8a30060b2ac23529c3c8a3"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "85abfe64d7dd44d1c4510a56c7e9cc2f7b0363d32b8a30060b2ac23529c3c8a3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.room/room-ktx@2.6.1",
+      "group": "androidx.room",
+      "name": "room-ktx",
+      "version": "2.6.1",
+      "purl": "pkg:maven/androidx.room/room-ktx@2.6.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "6017515ea6b0a4a9f50ebeee1e495e4c3492de69e9b49ea48e6a1234aa1e3945"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "6017515ea6b0a4a9f50ebeee1e495e4c3492de69e9b49ea48e6a1234aa1e3945"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.room/room-runtime@2.6.1",
+      "group": "androidx.room",
+      "name": "room-runtime",
+      "version": "2.6.1",
+      "purl": "pkg:maven/androidx.room/room-runtime@2.6.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "0e4150733d903468943f17dd9ceb4e828b26312966e2e13547a0e3aacd04299e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "0e4150733d903468943f17dd9ceb4e828b26312966e2e13547a0e3aacd04299e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate-android@1.3.0",
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.savedstate/savedstate-android@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "22ebd3d8b1e2c8bfa0ded23fe2f0179961683daa25b476deb991350c6ca94c38"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "22ebd3d8b1e2c8bfa0ded23fe2f0179961683daa25b476deb991350c6ca94c38"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate-compose-android@1.3.0",
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.savedstate/savedstate-compose-android@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4da17fbd1db36fa931fbdbf873ada793a16d76138fd4446517d8172aa21eaf31"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4da17fbd1db36fa931fbdbf873ada793a16d76138fd4446517d8172aa21eaf31"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate-compose@1.3.0",
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.savedstate/savedstate-compose@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "de0d5abbaa76bc12e2b400d2a856b1565ee6a3c2ffdb8dae995e5f0d88132296"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "de0d5abbaa76bc12e2b400d2a856b1565ee6a3c2ffdb8dae995e5f0d88132296"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate-ktx@1.3.0",
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.savedstate/savedstate-ktx@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "757560e597520f07044b1e033bbde439bf1fbe47eec916186735eed0999cd3e7"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "757560e597520f07044b1e033bbde439bf1fbe47eec916186735eed0999cd3e7"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate@1.3.0",
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.3.0",
+      "purl": "pkg:maven/androidx.savedstate/savedstate@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "dc5a6c42f3f4ecd3747f6dfece0cdf68b67842c70945686af17c74030df9e515"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "dc5a6c42f3f4ecd3747f6dfece0cdf68b67842c70945686af17c74030df9e515"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.sqlite/sqlite-framework@2.4.0",
+      "group": "androidx.sqlite",
+      "name": "sqlite-framework",
+      "version": "2.4.0",
+      "purl": "pkg:maven/androidx.sqlite/sqlite-framework@2.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "9b9b044d25648471793d99a0f47b0cebf7c6864f9bcd72996bcce804ff8aa7f4"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "9b9b044d25648471793d99a0f47b0cebf7c6864f9bcd72996bcce804ff8aa7f4"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.sqlite/sqlite@2.4.0",
+      "group": "androidx.sqlite",
+      "name": "sqlite",
+      "version": "2.4.0",
+      "purl": "pkg:maven/androidx.sqlite/sqlite@2.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "18ee9e9f4eeda1796a87bdf3d95b54f2f38d93db35109e9ae48433d3646092d3"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "18ee9e9f4eeda1796a87bdf3d95b54f2f38d93db35109e9ae48433d3646092d3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.startup/startup-runtime@1.1.1",
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "purl": "pkg:maven/androidx.startup/startup-runtime@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.tracing/tracing-ktx@1.2.0",
+      "group": "androidx.tracing",
+      "name": "tracing-ktx",
+      "version": "1.2.0",
+      "purl": "pkg:maven/androidx.tracing/tracing-ktx@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "8958b5a0153c1a82cb133703d3d11155898738280a354e92ca1817d7ca6f4cb7"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "8958b5a0153c1a82cb133703d3d11155898738280a354e92ca1817d7ca6f4cb7"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.tracing/tracing@1.2.0",
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.2.0",
+      "purl": "pkg:maven/androidx.tracing/tracing@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1",
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "purl": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.work/work-runtime@2.10.1",
+      "group": "androidx.work",
+      "name": "work-runtime",
+      "version": "2.10.1",
+      "purl": "pkg:maven/androidx.work/work-runtime@2.10.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "05c300906f138ca6f893b79a5d5747a175097d1eb34cb2833be8622889ca450f"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "05c300906f138ca6f893b79a5d5747a175097d1eb34cb2833be8622889ca450f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@1.0",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "purl": "pkg:maven/com.google.guava/listenablefuture@1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@2.1.21",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "2.1.21",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@2.1.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "924e84c5bd803399f69c5b29626b132a94b00402f55f9de5ba018dc811dfa393"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "924e84c5bd803399f69c5b29626b132a94b00402f55f9de5ba018dc811dfa393"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.22",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.8.22",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.22",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4f958aa993d5984f8f5ebed4146562a5f3a9f695b6049c9f287381379cadab33"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4f958aa993d5984f8f5ebed4146562a5f3a9f695b6049c9f287381379cadab33"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.22",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.8.22",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.22",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "928f2187217476313cb816d48070bc7654aa3b9a5ae81d3fc5f8c279cc8f8d9e"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "928f2187217476313cb816d48070bc7654aa3b9a5ae81d3fc5f8c279cc8f8d9e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.1.21",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "c5524086ca3e49a67986df8fdccd66037baf5f3c5a358b76f9dd609bee7bb638"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "c5524086ca3e49a67986df8fdccd66037baf5f3c5a358b76f9dd609bee7bb638"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "020515246d19e176d5626eb118f80f97f7876d1accd8cec15b1a4159257d5054"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "020515246d19e176d5626eb118f80f97f7876d1accd8cec15b1a4159257d5054"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4e5d1900e6379ef3f5970d04a8f30529adc82f859e8cc107c21ce8149ef666c4"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4e5d1900e6379ef3f5970d04a8f30529adc82f859e8cc107c21ce8149ef666c4"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "753858753decbbb2397343e2b871f062f697812e9422e41c9ee46a66b93eee30"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "753858753decbbb2397343e2b871f062f697812e9422e41c9ee46a66b93eee30"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "ed6eb0398717035e29f1c1d60a4e3ddbb89858f3db9e07b57ad759d374dae829"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "ed6eb0398717035e29f1c1d60a4e3ddbb89858f3db9e07b57ad759d374dae829"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-bom@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-bom",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-bom@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "4226a491c5b59ce909f73b65aa98944191c8dcac3825637c6be1069e6b589a46"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "4226a491c5b59ce909f73b65aa98944191c8dcac3825637c6be1069e6b589a46"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "734f5f749208dd0bef3d98caa594cf9222afdf0fee5b6843347a8fe64e240427"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "734f5f749208dd0bef3d98caa594cf9222afdf0fee5b6843347a8fe64e240427"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-core@1.7.3",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core",
+      "version": "1.7.3",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-core@1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "31d111776b9af777ca167103f2d61fbeeaa32dae6dd6635906b76d8278ba5730"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "31d111776b9af777ca167103f2d61fbeeaa32dae6dd6635906b76d8278ba5730"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@23.0.0",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "23.0.0",
+      "purl": "pkg:maven/org.jetbrains/annotations@23.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex,corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "group": "org.jspecify",
+      "name": "jspecify",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-runtime-modules",
+          "value": "corlex-compose"
+        },
+        {
+          "name": "corlex:pom:sha256",
+          "value": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6"
+        },
+        {
+          "name": "corlex:license-pom:sha256",
+          "value": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6"
+        }
+      ]
+    }
+  ]
+}

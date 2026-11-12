@@ -1,0 +1,26 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "corlex-sdk-key"
+description = "Corlex SDK write credential"
+regex = '''(ck_(?:live|test)_[A-Za-z0-9]{43})(?:$|[^A-Za-z0-9])'''
+secretGroup = 1
+entropy = 3.5
+keywords = ["ck_live_", "ck_test_"]
+
+[[rules]]
+id = "corlex-agent-token"
+description = "Corlex agent credential"
+regex = '''(cm_[A-Za-z0-9]{43})(?:$|[^A-Za-z0-9])'''
+secretGroup = 1
+entropy = 3.5
+keywords = ["cm_"]
+
+[[rules]]
+id = "corlex-symbol-upload-token"
+description = "Corlex build symbol upload credential"
+regex = '''(corlex_up_[A-Za-z0-9]{43})(?:$|[^A-Za-z0-9])'''
+secretGroup = 1
+entropy = 3.5
+keywords = ["corlex_up_"]

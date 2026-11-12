@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "repository": "corlex-android",
+  "files": [
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "f43fd39eadbf93e6549bfc57cfe13dd3b80eaedc0ff93d41049410dc04dcfeb7",
+      "size": 150
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "ca93d270ac62f8e0009bc6510ca4d1bdf9161b6929f91c7783426ae2a7016b65",
+      "size": 1630
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4b76fd7dba00a9b11c15ddf939e760eaaf38fac1e567acede353aa3095edcad3",
+      "size": 194
+    },
+    {
+      "path": ".gitleaks.toml",
+      "sha256": "4e659609f25bc15527341590a557f2428baabbd8aed13915cc706a96888c7e19",
+      "size": 631
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "617c4ad5aaa424d09ec06ecb67ecab1e8cfa41aa8b121ca93815fe8bfd86fb73",
+      "size": 766
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "9b9d3a0bc7f6e7a6464b9b14a8d13ab85702ab668b8e93b7bef282c399a444f3",
+      "size": 295
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "c3a7fa935cf81573a326afb857557326a978cfb010b82b4117d21cbfa5a78671",
+      "size": 753
+    },
+    {
+      "path": "corlex-compose/build.gradle.kts",
+      "sha256": "21725d3c3520e73b727ce507fd280dd42f86afc4eed1b30465b3af1b7fd2a426",
+      "size": 1980
+    },
+    {
+      "path": "corlex-compose/gradle.lockfile",
+      "sha256": "bbacc58bebd831f7d349ef293b46739eab2a6fcaff0f665475d9213a8db928db",
+      "size": 79589
+    },
+    {
+      "path": "corlex-compose/src/main/kotlin/ru/corlex/compose/CorlexScreens.kt",
+      "sha256": "9fa572f6b2a07f89723a24091743a5e347e781c7f2f59eab08bea0737266cb38",
+      "size": 2629
+    },
+    {
+      "path": "corlex-compose/src/test/kotlin/ru/corlex/compose/CorlexNavigationObserverTest.kt",
+      "sha256": "4a4677be985f2872e96a6c26143524465a441cbb3b5de843501b6230bbadd72a",
+      "size": 1902
+    },
+    {
+      "path": "corlex/build.gradle.kts",
+      "sha256": "7330724b99e64073b925652250522f96fe5415c3cdebd63ebf21663143638d7b",
+      "size": 2197
+    },
+    {
+      "path": "corlex/consumer-rules.pro",
+      "sha256": "90bb45d42464b65be4451121904e1193d89061cf3fc820392c9c76ff42acf088",
+      "size": 475
+    },
+    {
+      "path": "corlex/gradle.lockfile",
+      "sha256": "fb8d2b0c6699d9765c94ead81c74cbdde0f61f0e35d947c0b7e51ee55e2a137c",
+      "size": 60826
+    },
+    {
+      "path": "corlex/src/main/AndroidManifest.xml",
+      "sha256": "5894e29af75db0326c99cfb61ad321525b4c6ceb08e88e3c4a40394ba4fdbf95",
+      "size": 354
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/Corlex.kt",
+      "sha256": "d13789fde551b2ff06e7c4ff0fd29456183d551b9c15676cbb844feb1b91cb8b",
+      "size": 7377
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/CorlexConfig.kt",
+      "sha256": "9a99196a8241425a14b7cd24baf21059c2219b653fc12e49990ee1a1c49b4a9c",
+      "size": 2622
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/CorlexOptions.kt",
+      "sha256": "006901bbb48810479dfc4f112c0af5453bd26271f246831d6384144f538b2508",
+      "size": 2212
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/BindingDisk.kt",
+      "sha256": "5782cc6104453cedf334b68589286592e9b6d33e5a651b555e4d3d9ffbd760c4",
+      "size": 11191
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/BindingIdentity.kt",
+      "sha256": "07c0e1c8487546af0f04c79ffabc253b951560113f982a323f4eb63dfe5655b5",
+      "size": 2025
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/BoundStorage.kt",
+      "sha256": "7e719cb96bf10931584b43043c48f3f1f3809ee57069949ebf7936817d43de9b",
+      "size": 1738
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ClientDeps.kt",
+      "sha256": "3407f56848275c5cf68b47ce74466f2f47b5187f89bdd189469b8ecafbde6c71",
+      "size": 1249
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ClientLifetime.kt",
+      "sha256": "50ce62f3ed072ffb41d5b4368d0c6bec0beeafc2781a06fea0039531c04447cb",
+      "size": 2077
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ClientStorage.kt",
+      "sha256": "d224e1aa273f3ee84e5e963abfe3f2f03cac6ea7af640bcbbc538c877d521525",
+      "size": 4390
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ConfigDoc.kt",
+      "sha256": "c48e7529dc4685101845b1282f5c701101c6c41624bb61b01142c52b74ceb53a",
+      "size": 3413
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ConfigJson.kt",
+      "sha256": "59c7fd6bbb7088e0eb04680b34bdec96968f2f124b6f8bebb1180f12f0230efe",
+      "size": 3405
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/ConfigSchema.kt",
+      "sha256": "b35da62a576dea67b9029b76198f46fe0e28fec60bfdc5b622fbaacd4239c3d9",
+      "size": 4680
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/CorlexClient.kt",
+      "sha256": "d088678c1f0c26b801c538328744969903e383dd719a94139b7cbb9a5eb9333e",
+      "size": 12485
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/CrashPrivacy.kt",
+      "sha256": "7306a0a84ccd0b010c4e666a2b3369a801fa2f9f7d3f5641c50cb1edcd535d03",
+      "size": 4487
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/CrashReport.kt",
+      "sha256": "71ccb13998eda27dedf3122358f2acbdcd7220eabec3f950c5f3e4533ca32f4e",
+      "size": 4018
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/CrashReporter.kt",
+      "sha256": "064364964f9656c50131784541f7a69a39a6c12b740aa85d1ca5d93a9f9ab858",
+      "size": 3118
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/CrashStore.kt",
+      "sha256": "0dc6bf0d9435e84a64f4da116e39ea573ddc795dffc462ad3f9a6c86d1c0f927",
+      "size": 3429
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Delivery.kt",
+      "sha256": "fb2b3dd2ccf9258e03b2703599a31c2f108913edb703d45aecd43c3d37759f55",
+      "size": 7133
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Device.kt",
+      "sha256": "b68af2d8161ca95894a09defced5b3099a0a532f29aa08162121ccaa0eed5681",
+      "size": 2577
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/EndpointPolicy.kt",
+      "sha256": "bfb564a739bfece1f92521157da32812b8f32f67cff414f8d8a1fc3569414c70",
+      "size": 1032
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/EventQueue.kt",
+      "sha256": "aae322023c8664bd4ab5d8424690045c732418a80e6eeef6daf3001ae35b60bc",
+      "size": 4142
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Lifecycle.kt",
+      "sha256": "949af2b42e5117afcb58a31241a6f429dde6a08889db4e0165f7476cfd7b7e23",
+      "size": 3599
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Limits.kt",
+      "sha256": "c4cad6a3969e6e7ebd09e99f92bf955defb031c198810fd0ee634e08d2dccce1",
+      "size": 1132
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/PrimaryProcess.kt",
+      "sha256": "023c3085f240023a6f63dadad5ef77788e70239c3aee1ca1ced0e95acaa4464a",
+      "size": 794
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Props.kt",
+      "sha256": "634e3d02dda44fac5d9d2c228b6ce88af822c89107a767fa6fa52a7de717494a",
+      "size": 3149
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/QueueRead.kt",
+      "sha256": "3056df1c4f03b21d82c99cf2e977fcf6edb56c1c4ea4f0ab428e7b03ab4f24c6",
+      "size": 1097
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/RemoteConfig.kt",
+      "sha256": "2be097f115181a686f5e3fc8f388a9e8a3c7433868390cb0cbdf64acce6774ee",
+      "size": 8590
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/SdkFiles.kt",
+      "sha256": "b11ad90ff047558f263ad0c561d9148774e29b49861c0a21a612a1d6ec0bdc66",
+      "size": 798
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Sender.kt",
+      "sha256": "1098768cde33b5f90ce62d73fcfd7f6fe179250854ef7572cbd0dcfa12613654",
+      "size": 4867
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Storage.kt",
+      "sha256": "81cb1f049815d2a1a2fd7c39d2a41c48a48e21b3a4c54af24f3dbd3447af8003",
+      "size": 2800
+    },
+    {
+      "path": "corlex/src/main/kotlin/ru/corlex/internal/Transport.kt",
+      "sha256": "67bacdca9b62bbd14130d0a2493a793d81aabe7f7d0d3137c6f344ca627bf315",
+      "size": 5349
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/BindingStorageTest.kt",
+      "sha256": "908d44f4c46dd7a1c07bed075ff99dcc5290b8c1d0a2a056b08a83bf7a0ed454",
+      "size": 9772
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/ClientBindingTest.kt",
+      "sha256": "2829a9eed3fbcd244d3abd8a7d159c70b7af823d4b036c4a9984344e44845ee5",
+      "size": 10615
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/ConfigEtagTest.kt",
+      "sha256": "f73e0757afd936e5d033acb59ddeb5a9b71f39810743647aef4bad0c257a9d84",
+      "size": 3304
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/ConfigJsonTest.kt",
+      "sha256": "9100efa113bd27cae96e0b0f7341758867a856d24c762abe8288aeef46935c16",
+      "size": 1664
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/ConfigValidationTest.kt",
+      "sha256": "588362179a53374f692bb3a5b73a5ac3addcc4c8b65e9c3f6b3b9f2c74eea60e",
+      "size": 3087
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/CorlexClientTest.kt",
+      "sha256": "2787203d86b1b74c155e5a2675c37ed6cc61f80c5946aad1a3ed54c0fa210a4a",
+      "size": 8039
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/CrashBindingTest.kt",
+      "sha256": "44f77f4fe52083c4231fdeb2e29d415aa13cd2e252d330a91d186a1cc88b7ac1",
+      "size": 4281
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/CrashPrivacyTest.kt",
+      "sha256": "ee2c48d028c94f5659a9b998fb7c95f11c95bb50242f29a4137dff63bce21c2b",
+      "size": 5437
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/CrashScopeTest.kt",
+      "sha256": "53fc5a36352a82d166410cd66f2999fb33a4d26963cecfd500aabc224da14f96",
+      "size": 3727
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/CrashTest.kt",
+      "sha256": "bb7aa942e983c39a1072ea16d87f379901d59642e2617e9206b5a0f77bd0f649",
+      "size": 11538
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/DeliveryHttpServer.kt",
+      "sha256": "a0a51ebb43ceb85b17e9533c2b429b64d191d3bcfbae5bdfbce922f43967fd2e",
+      "size": 2764
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/DeliveryOwnershipTest.kt",
+      "sha256": "d873393ffcf85f5022861904626a13dd086380487b5c1c479b617a9677ae62a2",
+      "size": 14094
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/DiagnosticPrivacyTest.kt",
+      "sha256": "d096374699eff8f11fd5951ffd55c0d08b05cf7b9d13722f9c1165147bc4587a",
+      "size": 1464
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/EndpointPolicyTest.kt",
+      "sha256": "87c13e6086f48ffda13936089d5b7f35cd9c303cc036e2285667e81849f15dd2",
+      "size": 1126
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/LifecycleTest.kt",
+      "sha256": "833a82f3c460a57d02986da0f1a8e1b9a555f5ddae6ca03cbed2f88d4dd75019",
+      "size": 4716
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/PrimaryProcessTest.kt",
+      "sha256": "ceddaf53575e0b7dc876a1067f0afedb087bbb642cca9e5e72b6a2f34f802193",
+      "size": 2426
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/PropsTest.kt",
+      "sha256": "7cc3414d498fcf8e303e0ad2d50e306b4aa973f4544e75c2a5342f100a6ba673",
+      "size": 2301
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/QueueAndSenderTest.kt",
+      "sha256": "538c9dcae646312df2571d00d1b58950a3624c6c6495d4f9f1f3abb4a33450da",
+      "size": 7139
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/QueueBoundsTest.kt",
+      "sha256": "9de64c0137d07055b2a7d84e418a88801515dea0f8fad6063eb46cb8e5595a5f",
+      "size": 3305
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/RemoteConfigSecurityTest.kt",
+      "sha256": "b89d5e1ab6cbb8ddaedfd7f2bb503d91d3829ca36328fc16772afe1e1c751562",
+      "size": 7292
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/RemoteConfigTest.kt",
+      "sha256": "7d9152708d389760fb5b556ebda37a78d905c887039ab71055267d92c666a70a",
+      "size": 8565
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/SenderConsentTest.kt",
+      "sha256": "909a4e4128ae684ef801d3bb8a25a9d5de292aff4c3fb75644055c65a6c32779",
+      "size": 1598
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/Support.kt",
+      "sha256": "9f19b25e1f9bd5ee95e6462b90ce785460b10e58a8a488e9a222f6d2db73ee1a",
+      "size": 3110
+    },
+    {
+      "path": "corlex/src/test/kotlin/ru/corlex/internal/TransportSecurityTest.kt",
+      "sha256": "5f743188b37c851691468e135e36d33efbbf4407871b18166d4f590557a3fd72",
+      "size": 5419
+    },
+    {
+      "path": "corlex/src/test/resources/remote-config.json",
+      "sha256": "895f8b9a105a49a154d1b246a4cb7907c0948c9126bfbff890182b2f6c128199",
+      "size": 29715
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "287c00b53539b7c7d1e647ca07ba730367dc8889ed86ea86d0b350184d8afb74",
+      "size": 3811
+    },
+    {
+      "path": "docs/CONSENT-AND-DATA.md",
+      "sha256": "e4b5341771fe02425b7f26b93f241701706a1ae7bf85bef9a03e341998b415bf",
+      "size": 1257
+    },
+    {
+      "path": "docs/CRASHES.md",
+      "sha256": "8870d828e3f57659a459bfae906aaae092d07fa7fa8ed142aeb0a82f14db9a86",
+      "size": 980
+    },
+    {
+      "path": "docs/LOCAL-STORAGE.md",
+      "sha256": "52c1d32c293ad4d461ef690e531297547ab4694b088f6ed4b84ac5b8337e819f",
+      "size": 1015
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "sha256": "66c74d251b0570bcbdac1a4ec09685da109fed28f8b8c303e9933b3590a0afd4",
+      "size": 955
+    },
+    {
+      "path": "docs/runtime.cdx.json",
+      "sha256": "2ac226a11c3062523ef664281a090bbc9d75f1bc8a069dd71de33c1ce73c2c99",
+      "size": 93643
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "sha256": "94a81f4f5774c60b7700649bb54eef7ca5c2b42bb24f70add412097eb8970039",
+      "size": 1088
+    },
+    {
+      "path": "example/build.gradle.kts",
+      "sha256": "832461f97ce950ed008f6d7685e814a8b83ddcd5a1eee08b1a7f724bc5355bad",
+      "size": 2190
+    },
+    {
+      "path": "example/gradle.lockfile",
+      "sha256": "46753260c84cad644a55770a69b7fa9de9b3de999fde329daecd77795d4ad3fc",
+      "size": 70255
+    },
+    {
+      "path": "example/proguard-rules.pro",
+      "sha256": "c8d5914be22bbd563661a9edf3fab9f38ccbfd44da5ad34eb1eb3d088d671134",
+      "size": 185
+    },
+    {
+      "path": "example/src/main/AndroidManifest.xml",
+      "sha256": "ab603b7e576a58856d3010a7961175db18b1f965ffae71e4fab0ddf0c5a28cd9",
+      "size": 729
+    },
+    {
+      "path": "example/src/main/kotlin/ru/corlex/example/Crasher.kt",
+      "sha256": "6c3d364293e084f4660624a9b6cc14d3bab5ca18d78034709f3b58fb929bc2c0",
+      "size": 710
+    },
+    {
+      "path": "example/src/main/kotlin/ru/corlex/example/ExampleApp.kt",
+      "sha256": "27babb1b88b61b5e44297f0d3d2fc4d83048100e8198b1f801dfe93099ea93c5",
+      "size": 709
+    },
+    {
+      "path": "example/src/main/kotlin/ru/corlex/example/MainActivity.kt",
+      "sha256": "67de986a3fc5fc0e6ee8179f68547927a08ff93657420311d1be9246bc9f98e2",
+      "size": 3226
+    },
+    {
+      "path": "example/src/main/res/xml/network_security_config.xml",
+      "sha256": "b09bcb2091986e64a542e7694d463610bb0e6295386f882fc2771ea745b5aeb9",
+      "size": 399
+    },
+    {
+      "path": "gradle-plugin/build.gradle.kts",
+      "sha256": "3e6cc7a48584c6011619cd96c0c9a141068e297f366634c55cc7ed470e5dadbd",
+      "size": 2300
+    },
+    {
+      "path": "gradle-plugin/settings.gradle.kts",
+      "sha256": "eac9a39c26d3c7aa8f2e68387a5ab6fc7207d48598a352f5da8551b620429d76",
+      "size": 423
+    },
+    {
+      "path": "gradle-plugin/src/main/kotlin/ru/corlex/symbols/AndroidWiring.kt",
+      "sha256": "11248069b09de113624ab7df3d21cbeee08c35cd7523a3616e7a252134a6a21e",
+      "size": 1958
+    },
+    {
+      "path": "gradle-plugin/src/main/kotlin/ru/corlex/symbols/CorlexSymbolsPlugin.kt",
+      "sha256": "3b0fa24d284bd48cd054b73658eacc7ecdf85bda46b925a8dfbe62abc10b9133",
+      "size": 1707
+    },
+    {
+      "path": "gradle-plugin/src/main/kotlin/ru/corlex/symbols/MappingUploader.kt",
+      "sha256": "7e6ac5e40701a945ab6fc97a5bf531a0223599b7cd082d1779e4f83fbafc7421",
+      "size": 4790
+    },
+    {
+      "path": "gradle-plugin/src/main/kotlin/ru/corlex/symbols/UploadMappingTask.kt",
+      "sha256": "bc3db551873a65844d1210c9bf642ed960262ec3cb2dabdfbdb871a9eac00662",
+      "size": 3935
+    },
+    {
+      "path": "gradle-plugin/src/test/kotlin/ru/corlex/symbols/MappingSecurityTest.kt",
+      "sha256": "855b981d61983171a3c7179c4f45e3e9dfdbe3eec547b254cc7bed1d30b81545",
+      "size": 1450
+    },
+    {
+      "path": "gradle-plugin/src/test/kotlin/ru/corlex/symbols/StubServer.kt",
+      "sha256": "b474daec85a467dd9ce1d3ea2ffc17007e753a47f45990fd5b25bb1283299018",
+      "size": 2184
+    },
+    {
+      "path": "gradle-plugin/src/test/kotlin/ru/corlex/symbols/SymbolsPluginTest.kt",
+      "sha256": "6b93fa50a4f63894ec82a6b7390c8dd36087a02db3fbd561bbe9931c8d2db73b",
+      "size": 6998
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "782f39e29894758ffbc7acb255e39a6b644d7a22d695ab89aceb6d7ea0ecebb3",
+      "size": 133
+    },
+    {
+      "path": "gradle/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "bf339fd53746f26aa0887e775e4bb4f4a3d8f4f17602ca315aeed1add2dd7928",
+      "size": 1721
+    },
+    {
+      "path": "gradle/verification-metadata.xml",
+      "sha256": "08d70709f31d56806e0931449e3c8f847849cf671767ed5c02fdfb6b1a0c5afc",
+      "size": 246925
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "size": 43764
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "9b55399efbcbda211f1fdc20cd216a37da878db14546567fa809d536896f14e0",
+      "size": 338
+    },
+    {
+      "path": "gradlew",
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "size": 8733
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "size": 2937
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0596a484c067a63b693813f9e92179195dc87097ff1ad6e500d9c3f2de0c5919",
+      "size": 1075
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "660efb631ef4c3291f2e819bea147c5437b89a102dab74788369d68bd976ef6b",
+      "size": 256
+    },
+    {
+      "path": "README.md",
+      "sha256": "0f8917fcb156a87759a6f686db9185e5bab7f31857b3bcc0dece66695ccc0357",
+      "size": 2751
+    },
+    {
+      "path": "RELEASE_SECURITY.md",
+      "sha256": "bc36136d7938a1257d975379d7a095bc4ff970f80ae8b9a3c7e74b925fd60bf5",
+      "size": 1558
+    },
+    {
+      "path": "scripts/with-symbols.sh",
+      "sha256": "ef2fcf20aeccbf84b86e40e0249f80c8f1558e6bc63935f8bc9fbb58bf78052a",
+      "size": 652
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "85be7947337f78c1b88eb30c37999b5effe9a0942979ca00c35e54556756eae9",
+      "size": 454
+    },
+    {
+      "path": "settings-gradle.lockfile",
+      "sha256": "e58bb2ed80db9f829601a658d7c33b9802eb7d2191c31e79c28e01f14c225926",
+      "size": 198
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "df5c97b9d2be4af7b02f44dc40c13670d770ae67662df8ed258083c1221d40ac",
+      "size": 512
+    }
+  ]
+}

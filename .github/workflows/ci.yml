@@ -1,0 +1,46 @@
+name: Public SDK CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sdk-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/wrapper-validation@0723195856401067f7a2779048b490ace7a47d7c
+        with:
+          min-wrapper-count: '1'
+          allow-snapshots: false
+      - uses: gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' }}
+      - name: Test and build against reviewed locks and artifact checksums
+        run: ./gradlew --no-daemon --max-workers=2 --dependency-verification strict check :example:assembleRelease
+  security:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e
+        with:
+          go-version: '1.26.11'
+          cache: false
+      - name: Scan all source history without exposing matches
+        run: go run github.com/zricethezav/gitleaks/v8@v8.30.1 git --config .gitleaks.toml --redact --no-banner .
