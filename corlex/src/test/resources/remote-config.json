@@ -1,0 +1,1106 @@
+{
+  "description": "Remote Config bucketing, evaluation (task 39) and experiment assignment (task 40) vectors",
+  "buckets": [
+    {
+      "key": "beta_lab",
+      "userId": "user-1",
+      "bucket": 1822
+    },
+    {
+      "key": "beta_lab",
+      "userId": "user-2",
+      "bucket": 3756
+    },
+    {
+      "key": "beta_lab",
+      "userId": "",
+      "bucket": 4911
+    },
+    {
+      "key": "beta_lab",
+      "userId": "a_550e8400-e29b-41d4-a716-446655440000",
+      "bucket": 1682
+    },
+    {
+      "key": "beta_lab",
+      "userId": "Иван",
+      "bucket": 5329
+    },
+    {
+      "key": "beta_lab",
+      "userId": "ユーザー",
+      "bucket": 6504
+    },
+    {
+      "key": "beta_lab",
+      "userId": "😀 emoji",
+      "bucket": 8378
+    },
+    {
+      "key": "beta_lab",
+      "userId": "with\u0000nul",
+      "bucket": 6243
+    },
+    {
+      "key": "beta_lab",
+      "userId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "bucket": 527
+    },
+    {
+      "key": "beta_lab",
+      "userId": "12345",
+      "bucket": 5086
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "user-1",
+      "bucket": 7260
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "user-2",
+      "bucket": 3533
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "",
+      "bucket": 8909
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "a_550e8400-e29b-41d4-a716-446655440000",
+      "bucket": 813
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "Иван",
+      "bucket": 3765
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "ユーザー",
+      "bucket": 1215
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "😀 emoji",
+      "bucket": 5826
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "with\u0000nul",
+      "bucket": 571
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "bucket": 818
+    },
+    {
+      "key": "onboarding_v2",
+      "userId": "12345",
+      "bucket": 5559
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "user-1",
+      "bucket": 2688
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "user-2",
+      "bucket": 6176
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "",
+      "bucket": 2879
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "a_550e8400-e29b-41d4-a716-446655440000",
+      "bucket": 9304
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "Иван",
+      "bucket": 9183
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "ユーザー",
+      "bucket": 9845
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "😀 emoji",
+      "bucket": 5110
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "with\u0000nul",
+      "bucket": 8413
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "bucket": 2333
+    },
+    {
+      "key": "free_trial_days",
+      "userId": "12345",
+      "bucket": 5126
+    },
+    {
+      "key": "a_b",
+      "userId": "user-1",
+      "bucket": 615
+    },
+    {
+      "key": "a_b",
+      "userId": "user-2",
+      "bucket": 3598
+    },
+    {
+      "key": "a_b",
+      "userId": "",
+      "bucket": 7747
+    },
+    {
+      "key": "a_b",
+      "userId": "a_550e8400-e29b-41d4-a716-446655440000",
+      "bucket": 6270
+    },
+    {
+      "key": "a_b",
+      "userId": "Иван",
+      "bucket": 2232
+    },
+    {
+      "key": "a_b",
+      "userId": "ユーザー",
+      "bucket": 2432
+    },
+    {
+      "key": "a_b",
+      "userId": "😀 emoji",
+      "bucket": 5579
+    },
+    {
+      "key": "a_b",
+      "userId": "with\u0000nul",
+      "bucket": 881
+    },
+    {
+      "key": "a_b",
+      "userId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "bucket": 2793
+    },
+    {
+      "key": "a_b",
+      "userId": "12345",
+      "bucket": 8555
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "user-1",
+      "bucket": 2313
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "user-2",
+      "bucket": 1164
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "",
+      "bucket": 4104
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "a_550e8400-e29b-41d4-a716-446655440000",
+      "bucket": 6946
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "Иван",
+      "bucket": 3785
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "ユーザー",
+      "bucket": 6548
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "😀 emoji",
+      "bucket": 4723
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "with\u0000nul",
+      "bucket": 6725
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "bucket": 8405
+    },
+    {
+      "key": "show_meal_reminder",
+      "userId": "12345",
+      "bucket": 1464
+    }
+  ],
+  "series": {
+    "key": "rollout_check",
+    "prefix": "user-",
+    "count": 1000,
+    "buckets": [
+      1669, 3479, 8923, 5565, 9642, 9039, 9136, 7286, 8402, 8340, 1986, 9139, 2433, 7345, 9225,
+      6238, 7505, 9401, 7401, 383, 8807, 7201, 6672, 5450, 3874, 7549, 9612, 1706, 2219, 6857, 1149,
+      6993, 5734, 6920, 4055, 6763, 8922, 8672, 5158, 8903, 3036, 231, 476, 7154, 1686, 5436, 6781,
+      8510, 9930, 8484, 738, 855, 6644, 6485, 1816, 7108, 5397, 6921, 7315, 4614, 210, 7153, 3549,
+      5581, 1098, 1166, 6087, 4864, 5637, 3389, 9683, 7305, 8710, 224, 7148, 5, 253, 8834, 932,
+      2183, 9889, 208, 8093, 6879, 7674, 2152, 7260, 3024, 5310, 5005, 4271, 9216, 3409, 7145, 7254,
+      92, 9704, 5256, 6810, 3331, 3612, 5517, 7382, 8828, 1980, 9943, 554, 7847, 6996, 8899, 3964,
+      2201, 5164, 2822, 2189, 1916, 8484, 6638, 6839, 6912, 2595, 1197, 3486, 6637, 8320, 2252,
+      2064, 6844, 221, 6671, 897, 2622, 6467, 8058, 2708, 8765, 8699, 6590, 2693, 8354, 8310, 9754,
+      1442, 4306, 5465, 586, 2116, 5958, 4368, 175, 2582, 5494, 489, 8996, 1661, 4049, 3074, 5773,
+      7930, 7226, 5197, 93, 5107, 1254, 990, 7376, 1352, 7375, 1197, 2245, 6027, 7108, 917, 5422,
+      6822, 1053, 3724, 947, 9574, 1850, 9979, 3873, 7481, 9282, 2123, 5467, 2561, 3759, 8549, 8558,
+      9925, 8352, 6648, 8795, 7069, 4755, 1074, 4583, 4376, 779, 7683, 8016, 9025, 6376, 2436, 426,
+      7914, 7714, 5555, 2283, 8699, 559, 299, 8545, 7257, 673, 2487, 2588, 9031, 9851, 1213, 5490,
+      6842, 3407, 4056, 6493, 7512, 209, 6554, 654, 1004, 8208, 2859, 1978, 5416, 1539, 5858, 4080,
+      4546, 9169, 4538, 3697, 938, 1976, 3564, 4108, 5021, 4996, 207, 4061, 2979, 7283, 8422, 856,
+      9179, 5824, 4057, 7957, 4400, 9880, 267, 5217, 3216, 3820, 1196, 5178, 4534, 9635, 4234, 347,
+      6635, 3495, 8811, 5018, 1467, 3069, 7060, 8646, 6643, 2064, 4684, 3188, 1156, 4200, 6549,
+      5288, 5519, 7055, 3491, 3714, 526, 394, 1470, 5882, 5075, 7444, 2583, 9725, 4003, 4018, 1893,
+      2018, 5699, 3868, 3905, 6867, 4817, 8244, 5752, 2896, 8730, 3811, 9411, 1482, 3751, 3842,
+      2440, 2312, 7325, 3952, 7899, 5226, 2119, 7958, 1801, 9921, 96, 7863, 5147, 9542, 834, 2958,
+      4857, 5892, 5590, 7420, 9931, 5938, 5646, 4356, 5425, 9425, 2585, 8203, 8668, 7883, 129, 2179,
+      5648, 3081, 7603, 9655, 3470, 6401, 2726, 8450, 4987, 1550, 7877, 3617, 2224, 2088, 2479,
+      5340, 1610, 8024, 3352, 4912, 3756, 340, 9336, 495, 5466, 7686, 2084, 2386, 4349, 3591, 1074,
+      7198, 2120, 3832, 3744, 6471, 1829, 7627, 9990, 7943, 360, 6265, 7692, 1652, 4018, 647, 7119,
+      8289, 4330, 8213, 2361, 651, 2764, 6120, 4433, 5865, 6221, 6191, 7316, 2330, 3761, 1575, 7184,
+      9603, 4581, 1977, 8228, 5167, 6045, 7833, 6250, 3698, 2979, 23, 6993, 5277, 4543, 1698, 2465,
+      1838, 9767, 3175, 2027, 4506, 537, 951, 8478, 972, 3398, 1241, 6, 8097, 2478, 7363, 1747,
+      1237, 5040, 5761, 8311, 5540, 371, 5031, 2696, 2308, 2424, 720, 7185, 2137, 4928, 3139, 2448,
+      8587, 7580, 426, 1833, 4883, 9610, 1524, 5175, 559, 1, 7924, 7028, 1217, 7351, 8118, 6432,
+      997, 2898, 863, 6707, 2392, 6358, 2027, 3014, 1198, 1911, 5616, 574, 8302, 8034, 2708, 4085,
+      9907, 7667, 30, 2760, 5451, 6236, 8437, 5002, 8671, 4715, 8027, 7919, 7213, 1214, 7921, 4656,
+      8791, 4749, 8759, 8536, 3813, 5260, 4064, 1758, 7208, 7244, 4927, 1803, 761, 315, 5700, 9101,
+      3839, 5744, 9511, 5470, 7510, 3444, 3392, 2372, 2112, 200, 7380, 1290, 6821, 4778, 868, 8491,
+      6976, 659, 6201, 2430, 7299, 4258, 4462, 6929, 5393, 9522, 4192, 1646, 977, 6599, 8367, 5446,
+      3637, 1441, 7286, 5610, 5885, 9353, 249, 558, 1700, 3523, 8015, 350, 7547, 4868, 2468, 7355,
+      3427, 5934, 5816, 6216, 3662, 9234, 1098, 4766, 202, 491, 6468, 2549, 2201, 5247, 8628, 79,
+      4073, 6688, 6555, 1181, 909, 2842, 5234, 567, 4451, 8154, 7237, 8476, 2733, 7795, 8824, 2035,
+      8699, 8604, 8433, 672, 6551, 2417, 5325, 231, 6047, 4163, 4951, 4697, 2772, 7566, 9724, 5913,
+      6079, 6888, 6866, 6596, 8401, 3293, 9905, 5863, 4144, 2361, 7082, 6322, 753, 7393, 3875, 7874,
+      7696, 5045, 7139, 9553, 3229, 414, 7094, 8714, 513, 4832, 3840, 7760, 9641, 594, 9518, 9780,
+      7098, 4272, 1772, 7596, 5395, 5559, 5990, 3333, 997, 6758, 9602, 1527, 1449, 4025, 89, 3124,
+      8253, 481, 2405, 5998, 3805, 2580, 8886, 5723, 5952, 6948, 1362, 4299, 7688, 8260, 4912, 9859,
+      7169, 477, 4806, 3845, 2294, 2049, 7052, 9913, 3621, 8408, 6319, 2025, 2844, 6689, 4669, 9660,
+      2623, 8049, 1251, 9167, 7242, 9563, 9126, 6773, 821, 4052, 5277, 5536, 9464, 4123, 213, 5792,
+      7267, 7449, 2252, 6705, 7392, 160, 9613, 7188, 3854, 334, 637, 5026, 6838, 7988, 570, 4459,
+      362, 8776, 3244, 417, 9069, 7711, 5762, 1483, 2538, 9265, 8939, 9981, 128, 4997, 6842, 2016,
+      965, 4755, 8339, 3187, 1877, 2981, 8064, 6865, 9928, 8451, 4268, 7236, 971, 419, 4947, 6423,
+      8417, 2823, 7515, 6929, 8238, 9015, 4931, 4496, 1779, 5032, 9059, 3174, 8944, 169, 2144, 6821,
+      4066, 4502, 5194, 9797, 103, 1499, 4620, 3909, 2729, 8920, 4851, 5555, 7255, 349, 3085, 1866,
+      2337, 2547, 7603, 1847, 5473, 7026, 6092, 1687, 3097, 3020, 4679, 5647, 2464, 1618, 967, 5155,
+      6633, 1766, 2966, 1179, 9902, 8385, 5305, 5740, 8694, 5359, 8880, 1155, 7113, 4965, 265, 9946,
+      9637, 6107, 1299, 2802, 168, 2986, 260, 1401, 6621, 7417, 8039, 3960, 9967, 7196, 9695, 8406,
+      5111, 8706, 6145, 6990, 7767, 2601, 9143, 8573, 3134, 115, 1066, 5109, 2839, 6184, 3879, 5015,
+      3783, 1209, 1491, 8526, 8781, 6767, 2151, 6025, 9614, 9742, 5661, 4162, 8870, 33, 627, 3546,
+      6788, 6153, 9029, 1393, 8982, 977, 4601, 9418, 3491, 6210, 4774, 3345, 1977, 7986, 8742, 5572,
+      6016, 5736, 4248, 1790, 2741, 53, 2142, 1193, 1780, 2690, 5573, 6871, 7813, 7714, 7466, 1832,
+      1141, 3246, 9646, 1097, 6881, 7032, 6898, 7921, 584, 7241, 1461, 2385, 8071, 3768, 8080, 8192,
+      5958, 6694, 9959, 2804, 2884, 7936, 943, 6018, 8240, 1262, 5844, 6685, 1111, 5576, 5136, 2404,
+      9240, 1304, 4014, 2132, 8388, 3564, 9343, 8253, 5345, 4044, 1179, 9656, 606, 8974, 3391, 6475,
+      4892, 7915, 1451, 454, 3365, 4306, 6500, 3878, 866, 1030, 2016, 3975, 3413, 4138, 5625, 5731,
+      5190, 7370, 7167, 3262, 5801, 2108, 773, 9631, 6379, 7098, 7102, 8015, 6879, 8058, 417, 9263,
+      2816, 1934, 8387, 4185, 7117, 552, 737, 4554, 7431, 2821, 7979, 6299, 5061
+    ]
+  },
+  "resolve": [
+    {
+      "name": "100 % reaches everyone",
+      "param": {
+        "k": "onboarding_v2",
+        "t": "bool",
+        "v": true,
+        "r": 10000
+      },
+      "context": {
+        "userId": "user-1"
+      },
+      "expected": {
+        "value": true
+      }
+    },
+    {
+      "name": "0 % reaches nobody",
+      "param": {
+        "k": "show_meal_reminder",
+        "t": "bool",
+        "v": true,
+        "r": 0
+      },
+      "context": {
+        "userId": "user-1"
+      },
+      "expected": null
+    },
+    {
+      "name": "50 %, a person below the line",
+      "param": {
+        "k": "paywall_variant",
+        "t": "bool",
+        "v": true,
+        "r": 5000
+      },
+      "context": {
+        "userId": "user-1"
+      },
+      "expected": {
+        "value": true
+      }
+    },
+    {
+      "name": "50 %, a person above the line",
+      "param": {
+        "k": "paywall_variant",
+        "t": "bool",
+        "v": true,
+        "r": 5000
+      },
+      "context": {
+        "userId": "user-2"
+      },
+      "expected": {
+        "value": true
+      }
+    },
+    {
+      "name": "override beats a 0 % rollout",
+      "param": {
+        "k": "onboarding_v2",
+        "t": "bool",
+        "v": true,
+        "r": 0,
+        "o": {
+          "android": false,
+          "ios": true
+        }
+      },
+      "context": {
+        "userId": "u",
+        "platform": "ios"
+      },
+      "expected": {
+        "value": true
+      }
+    },
+    {
+      "name": "override of another platform is ignored",
+      "param": {
+        "k": "onboarding_v2",
+        "t": "bool",
+        "v": true,
+        "r": 0,
+        "o": {
+          "android": false,
+          "ios": true
+        }
+      },
+      "context": {
+        "userId": "u",
+        "platform": "web"
+      },
+      "expected": null
+    },
+    {
+      "name": "no platform, no override",
+      "param": {
+        "k": "onboarding_v2",
+        "t": "bool",
+        "v": true,
+        "r": 0,
+        "o": {
+          "android": false,
+          "ios": true
+        }
+      },
+      "context": {
+        "userId": "u"
+      },
+      "expected": null
+    },
+    {
+      "name": "override false is still a value",
+      "param": {
+        "k": "onboarding_v2",
+        "t": "bool",
+        "v": true,
+        "r": 0,
+        "o": {
+          "android": false,
+          "ios": true
+        }
+      },
+      "context": {
+        "userId": "u",
+        "platform": "android"
+      },
+      "expected": {
+        "value": false
+      }
+    },
+    {
+      "name": "number value",
+      "param": {
+        "k": "free_trial_days",
+        "t": "number",
+        "v": 7,
+        "r": 10000
+      },
+      "context": {
+        "userId": "user-9",
+        "platform": "web"
+      },
+      "expected": {
+        "value": 7
+      }
+    },
+    {
+      "name": "json value",
+      "param": {
+        "k": "onboarding_steps",
+        "t": "json",
+        "v": {
+          "steps": ["a", "b"],
+          "skip": null
+        },
+        "r": 10000
+      },
+      "context": {
+        "userId": "user-9"
+      },
+      "expected": {
+        "value": {
+          "steps": ["a", "b"],
+          "skip": null
+        }
+      }
+    },
+    {
+      "name": "string override with unicode",
+      "param": {
+        "k": "greeting",
+        "t": "string",
+        "v": "hi",
+        "r": 0,
+        "o": {
+          "web": "Привет, мир"
+        }
+      },
+      "context": {
+        "userId": "user-9",
+        "platform": "web"
+      },
+      "expected": {
+        "value": "Привет, мир"
+      }
+    },
+    {
+      "name": "null is a legitimate json value",
+      "param": {
+        "k": "maybe",
+        "t": "json",
+        "v": null,
+        "r": 10000
+      },
+      "context": {
+        "userId": "user-9"
+      },
+      "expected": {
+        "value": null
+      }
+    },
+    {
+      "name": "0.01 % is one bucket",
+      "param": {
+        "k": "beta_lab",
+        "t": "bool",
+        "v": true,
+        "r": 1
+      },
+      "context": {
+        "userId": "user-1"
+      },
+      "expected": null
+    }
+  ],
+  "experiments": [
+    {
+      "name": "50/50 for \"user-1\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "50/50 for \"user-2\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-2",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "50/50 for \"user-3\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-3",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "50/50 for \"Иван\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "Иван",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "50/50 for \"😀 emoji\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "😀 emoji",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "50/50 for \"\"",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "80/20 for \"user-1\"",
+      "experiment": {
+        "k": "onboarding_copy",
+        "s": "0f0f0f0f",
+        "v": [
+          {
+            "n": "control",
+            "b": 8000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "80/20 for \"user-2\"",
+      "experiment": {
+        "k": "onboarding_copy",
+        "s": "0f0f0f0f",
+        "v": [
+          {
+            "n": "control",
+            "b": 8000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-2",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "80/20 for \"user-3\"",
+      "experiment": {
+        "k": "onboarding_copy",
+        "s": "0f0f0f0f",
+        "v": [
+          {
+            "n": "control",
+            "b": 8000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-3",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "80/20 for \"user-4\"",
+      "experiment": {
+        "k": "onboarding_copy",
+        "s": "0f0f0f0f",
+        "v": [
+          {
+            "n": "control",
+            "b": 8000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-4",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "three arms for \"user-1\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "three arms for \"user-2\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-2",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "three arms for \"user-3\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-3",
+      "expected": {
+        "variant": "variant_2",
+        "index": 2,
+        "value": 2
+      }
+    },
+    {
+      "name": "three arms for \"user-4\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-4",
+      "expected": {
+        "variant": "variant_2",
+        "index": 2,
+        "value": 2
+      }
+    },
+    {
+      "name": "three arms for \"user-5\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-5",
+      "expected": {
+        "variant": "variant_2",
+        "index": 2,
+        "value": 2
+      }
+    },
+    {
+      "name": "three arms for \"user-6\"",
+      "experiment": {
+        "k": "hero_banner",
+        "s": "deadbeef",
+        "v": [
+          {
+            "n": "control",
+            "b": 3333,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 6666,
+            "v": 1
+          },
+          {
+            "n": "variant_2",
+            "b": 10000,
+            "v": 2
+          }
+        ]
+      },
+      "userId": "user-6",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "a 0.01 % arm",
+      "experiment": {
+        "k": "rare_arm",
+        "s": "s",
+        "v": [
+          {
+            "n": "control",
+            "b": 9999,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    },
+    {
+      "name": "same people, other salt",
+      "experiment": {
+        "k": "paywall_test",
+        "s": "ffffffff",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "variant_1",
+        "index": 1,
+        "value": 1
+      }
+    },
+    {
+      "name": "same people, other key",
+      "experiment": {
+        "k": "paywall_two",
+        "s": "a1b2c3d4",
+        "v": [
+          {
+            "n": "control",
+            "b": 5000,
+            "v": 0
+          },
+          {
+            "n": "variant_1",
+            "b": 10000,
+            "v": 1
+          }
+        ]
+      },
+      "userId": "user-1",
+      "expected": {
+        "variant": "control",
+        "index": 0,
+        "value": 0
+      }
+    }
+  ],
+  "experimentSeries": {
+    "experiment": {
+      "k": "exp_check",
+      "s": "series01",
+      "v": [
+        {
+          "n": "control",
+          "b": 8000,
+          "v": 0
+        },
+        {
+          "n": "variant_1",
+          "b": 10000,
+          "v": 1
+        }
+      ]
+    },
+    "prefix": "user-",
+    "count": 1000,
+    "variants": [
+      0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0,
+      0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+      0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
+      0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+      0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+      1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+      0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1,
+      0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0,
+      1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+      1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0,
+      0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0,
+      0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+      0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1,
+      0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+      0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0,
+      0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1,
+      0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0,
+      0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0,
+      1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+      0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 1, 0
+    ]
+  }
+}
